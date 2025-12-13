@@ -1,0 +1,13 @@
+ROC-AUC: 0.8507
+Average Precision (PR-AUC): 0.6649
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.73      0.81      5174
+           1       0.52      0.81      0.63      1869
+
+    accuracy                           0.75      7043
+   macro avg       0.72      0.77      0.72      7043
+weighted avg       0.81      0.75      0.77      7043
+
