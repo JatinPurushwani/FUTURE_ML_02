@@ -99,7 +99,7 @@ summary_lines = [
 
 # ---------- Build PDF --------------
 pdf = FPDF(unit="pt", format="A4")
-pdf.set_auto_page_break(margin=36)
+pdf.set_auto_page_break(auto=True, margin=36)
 pdf.add_page()
 pdf.set_font("Helvetica", size=14)
 pdf.cell(0, 18, "Churn Model Report", ln=1)
